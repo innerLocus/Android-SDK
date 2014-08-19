@@ -1,3 +1,2 @@
 include ':google-play-services_lib'
-include ':volley'
 include ':ubudu-sdk-demo2'
