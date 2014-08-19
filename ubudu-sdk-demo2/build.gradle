@@ -1,7 +1,9 @@
-apply plugin: 'android-library'
+apply plugin: 'android'
 
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
+    compile project(':google-play-services_lib')
+    compile project(':volley')
 }
 
 android {
