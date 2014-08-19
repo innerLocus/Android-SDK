@@ -45,9 +45,12 @@ google-play-services_lib/bin/google-play-services_lib.jar
 
 volley/bin/volley.jar
 
-volley/bin/volley.jar
-
 .DS_Store
 
 ubudu-sdk-demo2/bin/
 ubudu-sdk-demo2/gen/
+build/
+generated/
+intermediates/
+.gradle/
+
