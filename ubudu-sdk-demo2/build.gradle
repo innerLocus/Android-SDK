@@ -11,6 +11,7 @@ dependencies {
     provided 'com.j256.ormlite:ormlite-core:4.48'
     provided 'com.j256.ormlite:ormlite-android:4.48'
     provided 'com.github.erd:android-volley:1.0.0'
+    compile fileTree(dir:'src',include:'*.java')
 }
 
 android {
@@ -27,7 +28,7 @@ android {
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
-            java.srcDirs = ['src']
+            java.srcDirs = ['src','src/com','src/com/ubudu','src/com/ubudu/sdk','src/com/ubudu/sdk/demo2']
             resources.srcDirs = ['src']
             aidl.srcDirs = ['src']
             renderscript.srcDirs = ['src']

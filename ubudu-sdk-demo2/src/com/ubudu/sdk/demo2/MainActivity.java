@@ -13,6 +13,10 @@ import com.ubudu.sdk.UbuduBeaconManager;
 import com.ubudu.sdk.UbuduGeofenceManager;
 import com.ubudu.sdk.UbuduSDK;
 
+import com.ubudu.sdk.demo2.UbuduPagerAdapter;
+import com.ubudu.sdk.demo2.InfoAreaReceiver;
+import com.ubudu.sdk.demo2.TextOutput;
+
 public class MainActivity extends FragmentActivity implements TextOutput {
 	
 	// put here your namespace
